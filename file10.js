@@ -11,3 +11,4 @@ console.log(result)
 const sqr = (x) => x*x;
 const ans = sqr(5);
 console.log(ans)
+
