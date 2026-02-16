@@ -23,3 +23,6 @@ dd.setMinutes(10)
 dd.setSeconds(10)
 dd.setHours(10)
 console.log(dd)
+
+dd.setTime(10000000000)
+console.log(dd)
