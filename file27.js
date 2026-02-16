@@ -1,4 +1,4 @@
-let score = 90
+let score = 75
 let result
 // if(score>50){
 //     result = "PASS"
@@ -18,3 +18,10 @@ let scoree
 let ressult = scoree || 30 // if score has any value then its ok other wise if dont any value it feel default value 30.
 console.log(ressult)
 
+switch(true){
+    case (score > 50):
+        console.log("Grade A")
+        break;
+    default:
+        console.log("Grade B")
+}
