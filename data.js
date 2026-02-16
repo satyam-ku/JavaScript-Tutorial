@@ -43,4 +43,4 @@ export const products = [
   },
 ];
 
-console.table(products) //print data in table format
+// console.table(products) //print data in table format

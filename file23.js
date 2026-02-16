@@ -40,3 +40,11 @@ if(passFail){
 }
 
 
+//numbers.every(()=>{}) -> use for itrate through the array and return true if all elements pass the test, otherwise return false.
+const allEven = numbers.every((number) => {return number%2===0})
+console.log("All Even: ",allEven)
+
+const newResult = marks.every((mark)=>{ return mark>49})
+if(newResult) console.log("Pass")
+else console.log("Fail")
+

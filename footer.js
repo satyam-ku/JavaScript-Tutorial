@@ -1,0 +1,1 @@
+export const copyright = "@2026. All rights reserved."
