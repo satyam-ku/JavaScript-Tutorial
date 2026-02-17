@@ -2,6 +2,7 @@ const students = [
   { id: 1, name: "Vansh", s1: true, s2: true, s3: false },
   { id: 2, name: "Vaishnav", s1: true, s2: true, s3: true },
   { id: 3, name: "Nikhil", s1: false, s2: true, s3: true },
+   { id: 4, name: "Raj", s1: false, s2: false, s3: false },
 ];
 
 function getStudentInfo(id) {
@@ -42,9 +43,9 @@ function getAttendanceInfoS3(id) {
 }
 async function main() {
   try {
-    const studentId = 3;
+    const studentId = 5;
+    const found = await getStudentInfo(studentId);
     const result = await Promise.any([
-      getStudentInfo(studentId),
       getAttendanceInfoS1(studentId),
       getAttendanceInfoS2(studentId),
       getAttendanceInfoS3(studentId),
